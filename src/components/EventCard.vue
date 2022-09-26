@@ -6,7 +6,7 @@
 </template>
 
 <script lang="ts">
-import { Options, Vue } from "vue-class-component";
+import { Options, Vue } from 'vue-class-component'
 
 @Options({
   props: {
@@ -14,8 +14,8 @@ import { Options, Vue } from "vue-class-component";
   },
 })
 export default class EventCard extends Vue {
-  msg!: string;
-  event!: any;
+  msg!: string
+  event!: any
 }
 </script>
 
